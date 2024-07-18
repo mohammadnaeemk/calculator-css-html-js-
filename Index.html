@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Calculator</title>
+
+    <!--Connecting styles to the site-->
+    <link rel="stylesheet" href="Reset.css" />
+    <link rel="stylesheet" href="Style.css" />
+     <!-- Bootstrap Font Icon CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+     
+  </head>
+
+  <body>
+    <div class="main-box">
+      <!----------------------------------------------------Head-------------------------------------------------------->
+      <div class="head-box">
+   <div>  
+     <div>
+    <div>
+    <input type="checkbox" class="checkbox" id="checkbox">
+    <label for="checkbox" class="checkbox-label">
+        <i class="bi bi-moon"></i>
+        <i class="bi bi-brightness-high"></i>
+      <span class="ball"></span>
+    </label>
+  </div>
+  </div>
+
+  <div>
+    <button><img src="Images/time-lapse-1-svgrepo-com.svg" alt="Time"></button></button>
+    <div></div>
+  </div></div>
+
+      <div class="main-ans"><div>=</div><div class="ans">11+23</div></div>
+      </div>
+
+      <!----------------------------------------------------Chest-------------------------------------------------------->
+      <div class="chest-box">
+        <span>
+          <div class="left-box">
+            <ul class="left-top-box">
+                <li><button><img src="Images/percent-svgrepo-com.svg" alt="Persent"></button></button></li>
+                <li><button><img src="Images/math-svgrepo-com.svg" alt="Math"></button></button></li>
+                <li><button><img src="Images/garbage-trash-svgrepo-com.svg" alt="Garbage"></button></button></li>
+            </ul>
+
+            <div class="left-bottom-box">
+               <button onclick="type_number" class="numbers-button" value="1">1</button>
+               <button onclick="type_number" class="numbers-button" value="2">2</button>
+               <button onclick="type_number" class="numbers-button" value="3">3</button>
+               <button onclick="type_number" class="numbers-button" value="4">4</button>
+               <button onclick="type_number" class="numbers-button" value="5">5</button>
+               <button onclick="type_number" class="numbers-button" value="6">6</button>
+               <button onclick="type_number" class="numbers-button" value="7">7</button>
+               <button onclick="type_number" class="numbers-button" value="8">8</button>
+               <button onclick="type_number" class="numbers-button" value="9">9</button>
+               <button onclick="type_number" class="numbers-button" value=".">.</button>
+               <button onclick="type_number" class="numbers-button" value="0">0</button>
+               <button onclick="type_number" class="numbers-button" value="00">00</button>
+            </div>
+        </div>
+
+        <div class="right-box">
+            <ul>
+                <li><button ><img src="Images/division-svgrepo-com.svg" alt="Division"></button></li>
+                <li><button><img src="Images/multiplication-svgrepo-com.svg" alt="multiplication"></button></button></li>
+                <li><button><img src="Images/minus-svgrepo-com.svg" alt="minus"></button></button></li>
+                <li><button><img src="Images/add-svgrepo-com.svg" alt="Total"></button></button></li>
+                <li><button><img src="Images/equal-1-svgrepo-com.svg" alt="equal"></button></button></li>
+            </ul>
+          </div>
+          
+        </span>
+      </div>
+    </div>
+
+     <!-- Connecting styles to the site -->
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="Action.JS"></script>
+  </body>
+</html>
