@@ -9,6 +9,7 @@ $("#checkbox").click(function () {
     $(".right-box ul").toggleClass("button-dark");    
     $(".right-box ul li button").toggleClass("button-dark");   
     $(".left-top-box li button").toggleClass("button-dark");   
+    $(".head-box div button svg").toggleClass("text-dark");   
 
 }) 
   

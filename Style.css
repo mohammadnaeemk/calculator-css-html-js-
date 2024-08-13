@@ -146,17 +146,19 @@ body {
   width: 25%;
   text-align: center;
 }
-.head-box div button img {
-  height: 20px;
-  width: 20px;
-}
+
 .head-box div button {
   margin-right: 10px;
   height: 20px;
   width: 20px;
-  color: #4351e6;
   background-color: #f7f7f700;
   cursor: pointer;
+}
+
+.head-box div button svg {
+  height: 20px;
+  width: 20px;
+  color: #0f355e;
 }
 .chest-box {
   border-radius: 22px 22px 35px 35px;
@@ -221,9 +223,9 @@ body {
   border-radius: 60px;
   padding: 1px !important;
 }
-.right-box img {
-  height: 100%;
-  width: 17px;
+.right-box button {
+  font-size: large;
+  font-family: cursive;
 }
 .left-box {
   display: flex;
@@ -248,13 +250,13 @@ body {
 .left-top-box li {
   width: 33.3%;
 }
-.left-top-box img {
-  width: 17px;
-}
+
 .left-top-box button {
   width: 100%;
   background-color: #c0e7ff;
   transition: all 0.2s cubic-bezier(0.22, 0.61, 0.36, 1);
+  font-size: large;
+  font-family: cursive;
 }
 
 .left-top-box button:hover {
@@ -282,4 +284,7 @@ body {
   background: #194d68;
   color: #c0e7ff;
   background: linear-gradient(45deg, #194d68 0%, #154159 50%, #0f355e 100%);
+}
+.text-dark {
+  color: #c0e7ff !important;
 }
